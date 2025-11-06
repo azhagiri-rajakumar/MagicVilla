@@ -1,12 +1,14 @@
 {
   "profiles": {
-    "http": {
+    "MagicVilla": {
       "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7066;http://localhost:5103",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:5103"
+      }
     },
     "https": {
       "commandName": "Project",
